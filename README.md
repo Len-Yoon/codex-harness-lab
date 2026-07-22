@@ -13,12 +13,14 @@ Codex 하네스 엔지니어링을 책의 예제 단위로 재구성하여 실�
 | 원본 예제 | Codex 실습 | 상태 |
 |---|---|---|
 | `ex-02-01-ab-comparison` | 동일 요청 A/B 비교 | 준비 완료 |
+| `ex-02-02-my-first-harness` | 2인 커밋 메시지 하네스 | 준비 완료 |
 
 ## 시작 방법
 
 1. `exercises/ex-02-01-ab-comparison/README.md`를 열어 실습 절차를 확인함.
 2. A 실험과 B 실험에 `prompts/same-request.md`의 문장을 그대로 사용함.
 3. 두 결과를 `evaluation.md`에 기록하고 비교함.
+4. 커밋 메시지 하네스는 `exercises/ex-02-02-my-first-harness/README.md`와 `verification-checklist.md`를 확인한 뒤, 해당 폴더를 작업 폴더로 연 Codex에서 `커밋 메시지 만들어줘`를 요청함.
 
 ## 예제 추가 규칙
 
