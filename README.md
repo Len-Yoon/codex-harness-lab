@@ -14,6 +14,8 @@ Codex 하네스 엔지니어링을 책의 예제 단위로 재구성하여 실�
 |---|---|---|
 | `ex-02-01-ab-comparison` | 동일 요청 A/B 비교 | 준비 완료 |
 | `ex-02-02-my-first-harness` | 2인 커밋 메시지 하네스 | 준비 완료 |
+| `ex-04-01-security-analyst` | 읽기 전용 보안 분석 Codex 실습 환경 | 준비 완료 |
+| `ex-04-02-copy-editor` | 제한된 기계 교정 Codex 실습 환경 | 준비 완료 |
 
 ## 시작 방법
 
@@ -21,6 +23,8 @@ Codex 하네스 엔지니어링을 책의 예제 단위로 재구성하여 실�
 2. A 실험과 B 실험에 `prompts/same-request.md`의 문장을 그대로 사용함.
 3. 두 결과를 `evaluation.md`에 기록하고 비교함.
 4. 커밋 메시지 하네스는 `exercises/ex-02-02-my-first-harness/README.md`와 `verification-checklist.md`를 확인한 뒤, 해당 폴더를 작업 폴더로 연 Codex에서 `커밋 메시지 만들어줘`를 요청함.
+5. 보안 분석 실습은 Codex custom agent를 사용함. `exercises/ex-04-01-security-analyst/` 폴더를 작업 폴더로 열면 `.codex/agents/security-analyst.toml`이 자동으로 인식됨.
+6. 기계 교정 실습은 `exercises/ex-04-02-copy-editor/` 폴더를 작업 폴더로 열고 `copy-editor` agent를 선택한 뒤, 대상 원고만 교정하도록 요청함.
 
 ## 예제 추가 규칙
 
